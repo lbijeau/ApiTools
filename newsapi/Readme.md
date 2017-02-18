@@ -4,6 +4,7 @@
 * Provide add-on functionality to newsapi.org REST endpoints
 * Protect both newsapi.org and any client app developer from malicious use of the REST endpoints
 * Protect newsapi.org client app developer's API key, by securing it behind a server-side node-express https application
+
 ## Quickstart
 * Obtain a newsapi [API key](https://newsapi.org/register)
 * cd newsapi
@@ -25,4 +26,3 @@ The REST endpoints and parameters are the same as those required by *News Api*, 
 * Add support for auth headers
 * Add additional filtering capabilities
 * Provide mashup endpoints were data returned
-* ...
