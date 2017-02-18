@@ -7,6 +7,7 @@
 
 ## Quickstart
 * Obtain a newsapi [API key](https://newsapi.org/register)
+* Download or clone this repository
 * cd newsapi
 * Create a file called .env
 * Add following line to the .env file
@@ -15,7 +16,6 @@
 API_KEY_NEWSAPI=___YOUR_API_KEY_HERE___
 
 ```
-* Download or clone this repository
 * npm install
 * npm start
 ### ENDPOINTS
