@@ -20,7 +20,7 @@ API_KEY_NEWSAPI=___YOUR_API_KEY_HERE___
 * npm start
 
 ### ENDPOINTS
-The REST endpoints and parameters are the same as those required by *News Api*, except that the API KEY does not need to be provided on the *articles* endpoint.  
+The REST endpoints and parameters are the same as those required by *[News Api](https://newsapi.org/#documentation)*, except that the API KEY does not need to be provided on the *articles* endpoint.  
 
 ## Future work
 * Add support for caching to further reduce the load
