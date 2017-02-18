@@ -1,2 +1,2 @@
 # ApiTools
-[newsapi proxy](newsapi/Readme.md)
+[News API proxy](newsapi/Readme.md) - A proxy to help secure your [newsapi](https://newsapi.org) application key.
