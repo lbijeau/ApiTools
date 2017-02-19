@@ -16,6 +16,7 @@ var footer = require('gulp-footer');
 var watch = require('gulp-watch');
 var livereload = require('gulp-livereload');
 var package = require('./package.json');
+var nodemon = require('nodemon');
 
 // Scripts and tests
 var jshint = require('gulp-jshint');
@@ -267,6 +268,18 @@ gulp.task('clean:docs', function () {
 gulp.task('listen', function () {
     livereload.listen();
     gulp.watch(paths.input, ['default']);
+});
+
+// Spin up server with nodemon so that changes trigger server reload
+gulp.task('serve', function () {
+
+    nodemon({
+        script: 'app.js'
+        , ext: 'js html'
+        , env: { 'NODE_ENV': 'development' }
+    })    
+            
+    console.log("Running...");
 });
 
 
