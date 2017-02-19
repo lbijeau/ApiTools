@@ -21,6 +21,8 @@ router.get('/', function(req, res, next) {
     
     client.get("https://newsapi.org/v1/articles", args, function (data, response) {
         // parsed response body as js object 
+        console.log(req.accepts);
+        
         if (req.accepts('text/html')) {
             res.send(data);
             return;
