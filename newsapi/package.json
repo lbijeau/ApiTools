@@ -57,6 +57,7 @@
 		"gulp-svgstore": "^5.0.2",
 		"gulp-markdown": "^1.0.0",
 		"gulp-file-include": "^0.11.1",
-		"nodemon": "~1.11.0"
+		"nodemon": "~1.11.0",
+         "config":"1.25.1"
 	}
 }

@@ -1,0 +1,8 @@
+{
+  // Customer module configs 
+  "SourceConfig": {
+      "categories": ["business", "entertainment", "gaming", "general", "music", "science-and-nature", "sport", "technology"],
+      "languages":  ["en", "de", "fr"],
+      "countries":  ["au", "de", "gb", "in", "it", "us"]
+  }
+}
