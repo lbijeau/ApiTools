@@ -1,0 +1,15 @@
+<div class="panel panel-default" *ngFor="let article of articleList">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{article.title}}</h3>
+  </div>
+    <div class="panel-body">
+        <div class="media" >
+            <div class="media-left">
+                <a href="{{article.url}}"> <img class="media-object" src="{{article.urlToImage}}" alt="..."> </a>
+            </div>
+            <div class="media-body">
+                <p class="media-heading">{{article.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>
