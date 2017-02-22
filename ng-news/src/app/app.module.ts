@@ -4,14 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { SourceFetchComponent } from './source-fetch/source-fetch.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { NewsTopNavComponent } from './news-top-nav/news-top-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SourceFetchComponent,
     ArticleListComponent,
     NewsTopNavComponent
   ],
