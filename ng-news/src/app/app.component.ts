@@ -12,7 +12,6 @@ import { SourcesConfig } from './sources-config';
 export class AppComponent implements OnInit {
   title = 'News API Browser';
   public articleList:Article[]= [];
-//  public config:SourcesConfig;
 
 
   constructor (private config:SourcesConfig){
